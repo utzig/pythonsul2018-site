@@ -3,7 +3,6 @@
   height: 800px;
   height: calc(100vh - 64px);
   max-height: 800px;
-  background-color: #e9ecef;
   .jumbotron-container {
     @extend .container;
     padding: 20px 0px;
@@ -16,6 +15,7 @@
     @extend .justify-content-between;
     flex-direction: column;
     height: 100%;
+    background-color: transparent !important;
     .jumbotron__logo {
       display: block;
       width: 100%;
